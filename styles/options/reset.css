@@ -1,8 +1,8 @@
-@import './_fonst.css';
-@import './_icons.css';
+@import './fonst.css';
+@import './icons.css';
 
-@import './_nav.css';
-@import './_footer.css';
+@import './nav.css';
+@import './footer.css';
 
 /* Variables - Пременные
   ========================================================================= */
@@ -16,7 +16,7 @@
   /* Основной шрифт текста */
   --primaryFont: 'Manrope';
 
-  
+
   /* Основной шрифт Заголовков */
   --primaryTitleFont: 'Manrope';
   /* Цвет лого */
