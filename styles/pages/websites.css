@@ -229,18 +229,6 @@
     z-index: 1
 }
 
-.item-txt__title::before {
-    content: "01";
-    position: absolute;
-    width: 100%;
-    top: -15px;
-    left: 0;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-    color: #085cff
-}
-
 .item-list__desc:nth-of-type(1) {
     margin-top: 0;
     font-weight: 400
@@ -660,10 +648,7 @@ input.active~label::after {
         line-height: 27px
     }
 
-    .item-txt__title::before {
-        font-size: 14px;
-        line-height: 16px
-    }
+
 
     .item-list__desc {
         margin-top: 30px;
@@ -731,9 +716,6 @@ input.active~label::after {
         font-size: 20px
     }
 
-    .item-txt__title::before {
-        font-size: 12px
-    }
 
     .item-list__desc {
         font-size: 12px

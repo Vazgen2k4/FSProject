@@ -262,3 +262,7 @@ body {
   opacity: 0;
 }
 
+main.main {
+  width: 100%;
+  flex-grow: 1;
+}
