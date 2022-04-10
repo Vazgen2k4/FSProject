@@ -248,37 +248,37 @@
                 <div class="container">
                     <div class="products__content">
                         <div class="products__tab-btns">
-                            <a href="#!" class="products__tab-button">
+                            <a href="#!" class="products__tab-button link" data-tabs="crm">
                                 <div class="_img">
                                     <img src="./assets/images/mainpage/products/crm.png" alt="crm">
                                 </div>
                                 <h3 class="_name">CRM системы</h3>
                             </a>
-                            <a href="#!" class="products__tab-button">
+                            <a href="#!" class="products__tab-button link" data-tabs="erp">
                                 <div class="_img">
                                     <img src="./assets/images/mainpage/products/erp.png" alt="erp">
                                 </div>
                                 <h3 class="_name">ERP системы</h3>
                             </a>
-                            <a href="#!" class="products__tab-button">
+                            <a href="#!" class="products__tab-button link" data-tabs="cms">
                                 <div class="_img">
                                     <img src="./assets/images/mainpage/products/cms.png" alt="cms">
                                 </div>
                                 <h3 class="_name">CMS системы</h3>
                             </a>
-                            <a href="#!" class="products__tab-button">
+                            <a href="#!" class="products__tab-button link" data-tabs="bots">
                                 <div class="_img">
                                     <img src="./assets/images/mainpage/products/bots.png" alt="telegram bots">
                                 </div>
                                 <h3 class="_name">Телеграмм боты</h3>
                             </a>
-                            <a href="#!" class="products__tab-button">
+                            <a href="#!" class="products__tab-button link" data-tabs="sites">
                                 <div class="_img">
                                     <img src="./assets/images/mainpage/products/sites.png" alt="sites">
                                 </div>
                                 <h3 class="_name">Разработка сайтов</h3>
                             </a>
-                            <a href="#!" class="products__tab-button">
+                            <a href="#!" class="products__tab-button link" data-tabs="mobile">
                                 <div class="_img">
                                     <img src="./assets/images/mainpage/products/mobile.png" alt="mobile">
                                 </div>
@@ -290,7 +290,7 @@
                         <div class="products__tabs-box">
                             <h2 class="products__title">Наши услуги</h2>
                             <div class="products__tabs">
-                                <div class="products__tab">
+                                <div class="products__tab active" data-tabs-content="crm">
                                     <h3 class="products__tabs-title">CRM системы</h3>
                                     <p class="products__tabs-descr">
                                         Система управления взаимоотношениями с клиентами
@@ -298,9 +298,50 @@
                                         компанию.
                                     </p>
                                 </div>
+                                <div class="products__tab" data-tabs-content="erp">
+                                    <h3 class="products__tabs-title">ERP-система</h3>
+                                    <p class="products__tabs-descr">
+                                        Система планирования и управления ресурсами предприятия, призванная
+                                        оптимизировать
+                                        все
+                                        внутренние и внешние бизнес-процессы.
+                                    </p>
+                                </div>
+                                <div class="products__tab" data-tabs-content="cms">
+                                    <h3 class="products__tabs-title">CMS-система</h3>
+                                    <p class="products__tabs-descr">
+                                        Cистема управления контентом сайта. C помощью нее можно управлять внешним видом
+                                        сайта,
+                                        размещать на нем контент, выводить или убирать блоки.
+                                    </p>
+                                </div>
+                                <div class="products__tab" data-tabs-content="bots">
+                                    <h3 class="products__tabs-title">Телеграмм боты</h3>
+                                    <p class="products__tabs-descr">
+                                        Телеграмм бот - виртуальный собеседник, интегрируется в мессенджеры и помогает
+                                        вашему
+                                        бизнесу быть ближе к своим клиентам.
+                                    </p>
+                                </div>
+                                <div class="products__tab" data-tabs-content="sites">
+                                    <h3 class="products__tabs-title">CRM 7</h3>
+                                    <p class="products__tabs-descr">
+                                        Система управления взаимоотношениями с клиентами
+                                        и оптимизации бизнес-процессов. CRM-система учитывает каждое обращение в
+                                        компанию.
+                                    </p>
+                                </div>
+                                <div class="products__tab" data-tabs-content="mobile">
+                                    <h3 class="products__tabs-title">Мобильные приложения</h3>
+                                    <p class="products__tabs-descr">
+                                        Мобильное приложение – это программный пакет, функционал и дизайн которого
+                                        «заточен»
+                                        под возможности мобильных платформ.
+                                    </p>
+                                </div>
                             </div>
                             <!-- /.products__tabs -->
-                            <div class="products__tab-btns">
+                            <div class="products__tabs-btns">
                                 <a href="#!" class="btn">Заказать</a>
                                 <a href="#!" class="products__tab-btn">Подробнее</a>
                             </div>
@@ -486,6 +527,7 @@
     <!-- /.wrapper -->
     <script src="./scripts/options/nav.js"></script>
     <script src="./scripts/options/counter.js"></script>
+    <script src="./scripts/products_tab.js"></script>
     <!-- Js - скрипты -->
 </body>
 

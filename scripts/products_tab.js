@@ -1,5 +1,5 @@
-let btnLinks = [...document.querySelectorAll('.right__btn-link[data-tabs]')];
-let tabs = [...document.querySelectorAll('.products__tab[data-tabs]')];
+let btnLinks = [...document.querySelectorAll('[data-tabs]')];
+let tabs = [...document.querySelectorAll('[data-tabs-content]')];
 
 changeProductsTitle();
 addEventListener('resize', changeProductsTitle);
@@ -17,7 +17,7 @@ btnLinks.forEach((link) => {
     link.addEventListener('click', (e) => {
         let linkAtr = link.getAttribute('data-tabs');
         tabs.forEach((tab) => {
-            let tabAtr = tab.getAttribute('data-tabs');
+            let tabAtr = tab.getAttribute('data-tabs-content');
             if (linkAtr == tabAtr) {
                 tab.classList.add('active');
                 btnLinks.forEach((item) => item.classList.remove('active'));
