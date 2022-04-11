@@ -55,6 +55,10 @@ h6 {
   color: var(--titleColor);
 }
 
+input[type=checkbox]{
+  display: none;
+}
+
 *:hover,
 *:active {
   -webkit-tap-highlight-color: transparent;

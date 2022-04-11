@@ -1,10 +1,13 @@
 @import './../options/reset.css';
-/* tg__begin start */
 .tg__begin {
     position: relative;
     padding: 83px 0 116px;
     overflow: hidden;
 
+}
+
+img{
+    display: block;
 }
 
 .tg__begin-content {
@@ -668,10 +671,8 @@
     }
 
     .tg__begin-se {
-        display: block;
-    }
 
-    .neon-link {
+        display: block;
         margin: 0 auto;
     }
 
