@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram bot</title>
+    <link rel="stylesheet" href="./styles/pages/tgbot.css">
+</head>
+
+<body class="tg">
+    <!-- столько ненужной и бесполезной фигни в этом макете -->
+    <!-- 
+
+        neon-link - общий класс для кнопок отправить
+        tg-title - общй класс для заголовков
+     -->
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__content">
+                    <div class="nav__content-left">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/images/header/headerlogo.png" alt="logo">
+                            <span>Solution Fusion Lab</span>
+                        </a>
+                        <label href="#!" class="nav__theme-btn">
+                            <input type="checkbox" name="theme" id="theme-change">
+                        </label>
+                    </div>
+                    <!-- /.nav__content-left -->
+
+                    <div class="nav__content-right">
+                        <ul class="nav__list">
+                            <li class="link">
+                                <a href="#!" class="nav__list-link">Продукты</a>
+                                <div class="sub-nav__list-box ">
+                                    <ul class="sub-nav__list">
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-sites">
+                                                Разработка сайтов
+                                            </a>
+                                            <ul class="sub-sub-nav__list">
+                                                <li class="link">
+                                                    <a href="website.html#promo-sites" class="sub-sub-nav__list-link">
+                                                        Промо сайт
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#busines-card" class="sub-sub-nav__list-link">
+                                                        Сайт визитка
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#catalog-sites" class="sub-sub-nav__list-link">
+                                                        Сайт каталог
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#landing" class="sub-sub-nav__list-link">
+                                                        Лэндинг
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#korporative-sites"
+                                                        class="sub-sub-nav__list-link">
+                                                        Корпоративный сайт
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#magazine" class="sub-sub-nav__list-link">
+                                                        Интернет-магазин
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="link">
+                                            <a href="./tgbot.html" class="sub-nav__list-link  _icon-bots">Телеграм боты</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-crm">CRM системы</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-cms">CMS системы</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-erp">ERP системы</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-mobile">
+                                                Мобильные приложения
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="link"><a href="#!" class="nav__list-link">Решения</a></li>
+                            <li class="link"><a href="#!" class="nav__list-link">Портфолио</a></li>
+                            <li class="link"><a href="./aboute.html" class="nav__list-link">О нас</a></li>
+                            <li class="link"><a href="./blog.html" class="nav__list-link ">Блог</a></li>
+                            <li class="link _lang-li__btn" data-adaptive-size="992">
+
+                            </li>
+                        </ul>
+                        <!-- /.nav__list -->
+
+                    </div>
+                    <!-- /.nav__content-right -->
+                    <a href="#!" class="nav__menu-btn link">
+                        <span class="menu-btn__line"></span>
+                        <span class="menu-btn__line"></span>
+                        <span class="menu-btn__line"></span>
+                    </a>
+
+                </div>
+                <!-- /.nav__content -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- /.nav -->
+
+        <main class="main">
+            <div class="tg__begin">
+                <div class="container">
+                    <div class="tg__begin-content">
+                        <div class="tg__begin-left">
+                            <h3 class="tg__begin-title">
+                                <span>Разработка бота</span>
+                                для Telegram
+                            </h3>
+                            <p class="tg__begin-descr">Мы поможем автоматизировать взаимодействие
+                                с вашей услугой и увеличить охват бизнеса.</p>
+                            <a href="#" class="neon-link tg__begin-link">Попробовать бесплатно</a>
+                        </div>
+                        <div class="tg__begin-right">
+                            <img src="./assets/images/bot_page/tg-bot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="neon-link tg__begin-se">Попробовать бесплатно</a>
+                <picture class="tg__begin-abs">
+                    <source srcset="images/tg-begin-2.svg" media="(max-width: 580px)">
+                    <img src="./assets/images/bot_page/tg-begin.svg" alt="">
+                </picture>
+            </div>
+            <div class="tg__benefits">
+                <div class="container">
+                    <p class="tg__benefits-slogan">Сэкономьте ресурсы компании</p>
+                    <h2 class="tg__benefits-title tg-title">Основные преимущества</h2>
+                    <div class="tg__benefits-grid">
+                        <img src="./assets/images/bot_page/tg-benefits01.png" alt="" class="tg__benefits-item">
+                        <div class="tg__benefits-item tg__benefits-text">
+                            <h3 class="tg__benefits-name">Быстрота работы </h3>
+                            <p class="tg__benefits-descr">
+                                Медленный интернет
+                                не является проблемой
+                                для ботов, они работают быстро.
+                            </p>
+                        </div>
+                        <img src="./assets/images/bot_page/tg-benefits02.png" alt="" class="tg__benefits-item">
+                        <div class="tg__benefits-item tg__benefits-text">
+                            <h3 class="tg__benefits-name">Увеличение объема продаж </h3>
+                            <p class="tg__benefits-descr">
+                                Чат-боты могут предложить нужный товар, консультируют покупателей и запоминают
+                                их предпочтения.
+                            </p>
+                        </div>
+                        <div class="tg__benefits-item tg__benefits-text">
+                            <h3 class="tg__benefits-name">Низкая стоимость </h3>
+                            <p class="tg__benefits-descr">
+                                Низкая стоимость в отличии от приложений и сайтов стоимость разработки
+                                у Телеграм Ботов ниже.
+                            </p>
+                        </div>
+                        <img src="./assets/images/bot_page/tg-benefits03.png" alt="" class="tg__benefits-item">
+                        <div class="tg__benefits-item tg__benefits-text">
+                            <h3 class="tg__benefits-name">Простота использования </h3>
+                            <p class="tg__benefits-descr">
+                                Телеграм является
+                                номер один мессенджером
+                                в Узбекистане, с более чем 18 миллионами пользователями и прост в использовании.
+                            </p>
+                        </div>
+                        <img src="./assets/images/bot_page/tg-benefits04.png" alt="" class="tg__benefits-item">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="tg-title tg__creation-promo">Создайте бота прямо сейчас</h2>
+            </div>
+            <div class="tg__creation">
+                <div class="container">
+                    <div class="tg__creation-grid">
+                        <div class="tg__creation-left">
+                            <form class="tg__creation-form" method="POST">
+                                <div class="tg__creation-card tg__creation-first active">
+                                    <p class="tg__creation-step">Шаг <span>1</span> из 3</p>
+                                    <h3 class="tg__creation-title">Цель создания бота</h3>
+                                    <div class="tg__creation-block">
+                                        <h4 class="tg__creation-name">Выберите цель создания бота:</h4>
+                                        <label class="tg__creation-label">
+                                            <input type="radio" name="choice" required checked>
+                                            <span>Электронная коммерция</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="radio" name="choice" required>
+                                            <span>Чат-бот</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="radio" name="choice" required>
+                                            <span>Логистика</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="radio" name="choice" required>
+                                            <span>Другое</span>
+                                        </label>
+                                    </div>
+                                    <div class="tg__creation-block">
+                                        <h4 class="tg__creation-name">Выберите основной функционал бота:</h4>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox" checked>
+                                            <span>Каталог </span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Корзина </span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Доставка</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="tg__creation-card tg__creation-second ">
+                                    <p class="tg__creation-step">Шаг <span>2</span> из 3</p>
+                                    <h3 class="tg__creation-title">Расширенный функционал</h3>
+                                    <div class="tg__creation-block">
+                                        <h4 class="tg__creation-name">Выберите один или несколько вариантов :</h4>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox" checked>
+                                            <span>Учёт сотрудников</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Учёт клиентов</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Система дисконта</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Складской учёт</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Система филиалов</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Индивидуальная рассылка</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Рассылка в группы</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Интеграция с готовой системой</span>
+                                        </label>
+                                        <label class="tg__creation-label">
+                                            <input type="checkbox">
+                                            <span>Складской учёт</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="tg__creation-card tg__creation-third tg__creation-check">
+                                    <p class="tg__creation-step">Шаг <span>3</span> из 3</p>
+                                    <h3 class="tg__creation-title">Проверка и завершение</h3>
+                                    <div class="tg__creation-block">
+                                        <h4 class="tg__creation-name">Цель создания бота:</h4>
+                                        <div class="tg__creation-label">
+                                            <p>Электронная коммерция</p>
+                                        </div>
+                                        <h4 class="tg__creation-name">Основной функционал:</h4>
+                                        <div class="tg__creation-label">
+                                            <p>Каталог </p>
+                                            <p>Корзина </p>
+                                        </div>
+                                        <h4 class="tg__creation-name">Расширенный функционал:</h4>
+                                        <div class="tg__creation-label">
+                                            <p>Учёт сотрудников </p>
+                                            <p>Система дисконта</p>
+                                            <p>Индивидуальная рассылка</p>
+                                            <p>Рассылка в группы</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tg__creation-final">
+                                    <div class="tg__creation-fieldset">
+                                        <h3 class="tg__creation-title">Заказ телеграм бота</h3>
+                                        <h4 class="tg__creation-name">Заполните форму для связи</h4>
+                                        <div class="tg__creation-input">
+                                            <input type="text" required>
+                                            <span>Бот</span>
+                                        </div>
+                                        <div class="tg__creation-input">
+                                            <input type="text" required>
+                                            <span>Имя</span>
+                                        </div>
+                                        <div class="tg__creation-input">
+                                            <input type="text" required>
+                                            <span>Название организации</span>
+                                        </div>
+                                        <div class="tg__creation-input">
+                                            <input type="email" required>
+                                            <span>Ваша почта</span>
+                                        </div>
+                                        <div class="tg__creation-input">
+                                            <input type="tel" required>
+                                            <span>Телефон</span>
+                                        </div>
+                                        <h4 class="tg__creation-name">Заполните форму для связи</h4>
+                                        <button class="neon-link tg__creation-submit">Отправить</button>
+                                    </div>
+                                </div>
+                                <div class="tg__creation-sep">
+                                    <button type="reset" class="tg__creation-reset"><img src="./assets/images/bot_page/bin.svg"
+                                            alt="">Очистить все</button>
+                                    <div class="tg__creation-steps">
+                                        <a href="#" class="tg__creation-prev">Назад</a>
+                                        <a href="#" class="tg__creation-next"><span>Следующий шаг</span></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tg__creation-right">
+                            <div class="tg__creation-process">
+                                <div class="tg__creation-progress">
+                                    <div class="tg__creation-elem active">1</div>
+                                    <div class="tg__creation-elem">2</div>
+                                    <div class="tg__creation-elem">3</div>
+                                </div>
+                                <div class="tg__creation-info">
+                                    <div class="tg__creation-announce active">Цель создания бота</div>
+                                    <div class="tg__creation-announce">Расширенный функционал</div>
+                                    <div class="tg__creation-announce">Проверка и завершение</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/bot_page/tg-creation.svg" alt="" class="tg__creation-triangle">
+            </div>
+            <div class="tg__project">
+                <div class="container">
+                    <h2 class="tg__project-title">Обсудим Ваш проект?</h2>
+                    <div class="tg__project-grid">
+                        <div class="tg__project-left">
+                            <form class="tg__project-form" method="GET">
+                                <div class="tg__project-elem">
+                                    <h4 class="tg__creation-name">Наши продукты</h4>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>Разработка сайтов</span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>Телеграмм боты </span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox" checked>
+                                        <span>CRM системы</span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>CMS системы</span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>ERP системы </span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>Мобильные приложения</span>
+                                    </label>
+                                </div>
+                                <div class="tg__project-elem">
+                                    <h4 class="tg__creation-name">Ваши предпочтения</h4>
+                                    <label class="tg__creation-label tg__project-radio" data-select="tea">
+                                        <input type="radio" name="choice1" required checked>
+                                        <span>Чай</span>
+                                    </label>
+                                    <label class="tg__creation-label tg__project-radio" data-select="coffee">
+                                        <input type="radio" name="choice1" required>
+                                        <span>Кофе</span>
+                                    </label>
+                                    <label class="tg__creation-label tg__project-radio" data-select="cake">
+                                        <input type="radio" name="choice1" required>
+                                        <span>Плюшки</span>
+                                    </label>
+                                </div>
+                                <button class="neon-link">Назначить встречу</button>
+                            </form>
+                        </div>
+                        <div class="tg__project-right">
+                            <div class="tg__project-abs">
+                                <img src="./assets/images/bot_page/neon-coffee.svg" alt="" class="tg__project-selected">
+                            </div>
+                            <img src="./assets/images/bot_page/tg-project.svg" alt="" class="tg__project-abs2">
+                            <div class="tg__project-triangle">
+                                <img src="./assets/images/bot_page/triangle.svg" alt="">
+                                <div class="tg__project-item tg__project-item1">
+                                    <img src="./assets/images/bot_page/neon-capcake.svg" alt="" data-select="cake">
+                                </div>
+                                <div class="tg__project-item tg__project-item2 active">
+                                    <img src="./assets/images/bot_page/neon-tea.svg" alt="" data-select="tea">
+                                </div>
+                                <div class="tg__project-item tg__project-item3">
+                                    <img src="./assets/images/bot_page/neon-coffee.svg" alt="" data-select="coffee">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/bot_page/bg-tea.jpg" alt="" class="tg__project-bg">
+                <img src="./assets/images/bot_page/tg-project.svg" alt="" class="tg__project-decor">
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__logo-part">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/images/header/headerlogo.png" alt="logo">
+                            <span>Solution Fusion Lab</span>
+                        </a>
+
+                        <p class="footer__descr">
+                            Мы нацелены на создание будущего!
+                            Будь с нами - сделай шаг в сторону прогресса.
+                        </p>
+                    </div>
+                    <!-- /.footer__logo-part -->
+                    <ul class="footer__links-list">
+                        <li><a href="#!" class="link disabled">Решения</a></li>
+                        <li><a href="#!" class="link disabled">Портфолио</a></li>
+                        <li><a href="#!" class="link disabled">О нас</a></li>
+                        <li><a href="#!" class="link disabled">Блог</a></li>
+                    </ul>
+                    <!-- /.footer__links-list -->
+                    <div class="footer__products">
+                        <h2 class="footer__products-title">Продукты</h2>
+                        <ul class="footer__products-list">
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    CRM системы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Телеграмм боты
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Лендинги
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Электронная коммерция
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Сканирование паспорта
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Мобильные приложения
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.footer__products -->
+                    <div class="footer__contacts">
+                        <h2 class="footer__contacts-title">Контакты</h2>
+                        <ul class="footer__contacts-list">
+                            <li>
+                                <a href="tel:+998935856774" class="link footer__contacts-links">
+                                    Телефон: +998 93 585 67 74
+
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.ru/maps/place/62+%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%90%D0%BC%D0%B8%D1%80%D0%B0+%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0,+%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.3270531,69.281607,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8b4a76230827:0x12e335ffb127c103!8m2!3d41.3270491!4d69.2837957"
+                                    class="link footer__contacts-links" target="_blank">
+                                    Адрес: Ташкент. Ул. Амира Темура 62
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:fslproject@.com" class="link footer__contacts-links">
+                                    Почта: fslproject@ .com
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.footer__contacts-list -->
+                        <ul class="footer__social-list">
+                            <li>
+                                <a href="#!" class="footer__social-link _icon-telegram"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__social-link _icon-facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__social-link _icon-instagram"></a>
+                            </li>
+                        </ul>
+                        <!-- /.footer__social-list -->
+                    </div>
+                    <!-- /.footer__contacts -->
+
+                </div>
+                <!-- /.footer__content -->
+            </div>
+            <!-- /.container -->
+        </footer>
+        <!-- /.footer -->
+    </div>
+
+
+
+    <script src="./scripts/pages/tgbot.js"></script>
+    <script src="./scripts/options/nav.js"></script>
+</body>
+
+</html>

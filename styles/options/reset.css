@@ -39,6 +39,11 @@
   text-decoration: none;
   list-style: none;
   font-family: var(--primaryFont);
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  border: none;
+  outline: none;
 }
 
 h1,
@@ -54,6 +59,11 @@ h6 {
 *:hover,
 *:active {
   -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  border: none;
+  outline: none;
 }
 
 ::-webkit-scrollbar {
