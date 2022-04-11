@@ -13,7 +13,7 @@
     <!-- столько ненужной и бесполезной фигни в этом макете -->
     <!-- 
 
-        neon-link - общий класс для кнопок отправить
+        btn - общий класс для кнопок отправить
         tg-title - общй класс для заголовков
      -->
     <div class="wrapper">
@@ -76,7 +76,8 @@
                                             </ul>
                                         </li>
                                         <li class="link">
-                                            <a href="./tgbot.html" class="sub-nav__list-link  _icon-bots">Телеграм боты</a>
+                                            <a href="./tgbot.html" class="sub-nav__list-link  _icon-bots">Телеграм
+                                                боты</a>
                                         </li>
                                         <li class="link">
                                             <a href="#!" class="sub-nav__list-link  _icon-crm">CRM системы</a>
@@ -121,7 +122,7 @@
         <!-- /.nav -->
 
         <main class="main">
-            <div class="tg__begin">
+            <section class="tg__begin">
                 <div class="container">
                     <div class="tg__begin-content">
                         <div class="tg__begin-left">
@@ -131,20 +132,22 @@
                             </h3>
                             <p class="tg__begin-descr">Мы поможем автоматизировать взаимодействие
                                 с вашей услугой и увеличить охват бизнеса.</p>
-                            <a href="#" class="neon-link tg__begin-link">Попробовать бесплатно</a>
+                            <a href="#" class="btn tg__begin-link">Попробовать бесплатно</a>
                         </div>
                         <div class="tg__begin-right">
                             <img src="./assets/images/bot_page/tg-bot.png" alt="">
                         </div>
                     </div>
                 </div>
-                <a href="#" class="neon-link tg__begin-se">Попробовать бесплатно</a>
+                <a href="#" class="btn tg__begin-se">Попробовать бесплатно</a>
                 <picture class="tg__begin-abs">
                     <source srcset="images/tg-begin-2.svg" media="(max-width: 580px)">
                     <img src="./assets/images/bot_page/tg-begin.svg" alt="">
                 </picture>
-            </div>
-            <div class="tg__benefits">
+            </section>
+            <!-- /.tg__begin -->
+
+            <section class="tg__benefits">
                 <div class="container">
                     <p class="tg__benefits-slogan">Сэкономьте ресурсы компании</p>
                     <h2 class="tg__benefits-title tg-title">Основные преимущества</h2>
@@ -185,11 +188,14 @@
                         <img src="./assets/images/bot_page/tg-benefits04.png" alt="" class="tg__benefits-item">
                     </div>
                 </div>
-            </div>
+            </section>
+            <!-- /.tg__benefits -->
+
             <div class="container">
                 <h2 class="tg-title tg__creation-promo">Создайте бота прямо сейчас</h2>
             </div>
-            <div class="tg__creation">
+
+            <section class="tg__creation">
                 <div class="container">
                     <div class="tg__creation-grid">
                         <div class="tg__creation-left">
@@ -322,15 +328,15 @@
                                             <span>Телефон</span>
                                         </div>
                                         <h4 class="tg__creation-name">Заполните форму для связи</h4>
-                                        <button class="neon-link tg__creation-submit">Отправить</button>
+                                        <button class="btn tg__creation-submit">Отправить</button>
                                     </div>
                                 </div>
                                 <div class="tg__creation-sep">
-                                    <button type="reset" class="tg__creation-reset"><img src="./assets/images/bot_page/bin.svg"
-                                            alt="">Очистить все</button>
+                                    <button type="reset" class="tg__creation-reset"><img
+                                            src="./assets/images/bot_page/bin.svg" alt="">Очистить все</button>
                                     <div class="tg__creation-steps">
                                         <a href="#" class="tg__creation-prev">Назад</a>
-                                        <a href="#" class="tg__creation-next"><span>Следующий шаг</span></a>
+                                        <a href="#" class="tg__creation-next btn__secondary"><span>Следующий шаг</span></a>
                                     </div>
                                 </div>
                             </form>
@@ -352,8 +358,10 @@
                     </div>
                 </div>
                 <img src="./assets/images/bot_page/tg-creation.svg" alt="" class="tg__creation-triangle">
-            </div>
-            <div class="tg__project">
+            </section>
+            <!-- /.tg__creation -->
+
+            <section class="tg__project">
                 <div class="container">
                     <h2 class="tg__project-title">Обсудим Ваш проект?</h2>
                     <div class="tg__project-grid">
@@ -401,7 +409,7 @@
                                         <span>Плюшки</span>
                                     </label>
                                 </div>
-                                <button class="neon-link">Назначить встречу</button>
+                                <button class="btn">Назначить встречу</button>
                             </form>
                         </div>
                         <div class="tg__project-right">
@@ -426,7 +434,8 @@
                 </div>
                 <img src="./assets/images/bot_page/bg-tea.jpg" alt="" class="tg__project-bg">
                 <img src="./assets/images/bot_page/tg-project.svg" alt="" class="tg__project-decor">
-            </div>
+            </section>
+            <!-- /.tg__project -->
         </main>
 
         <footer class="footer">
@@ -536,6 +545,7 @@
 
 
     <script src="./scripts/pages/tgbot.js"></script>
+    <script src="./scripts/options/tg_project.js"></script>
     <script src="./scripts/options/nav.js"></script>
 </body>
 

@@ -101,6 +101,9 @@ function setAdaptiveMenu() {
 
     li.innerHTML = innerWidth > li.getAttribute('data-adaptive-size') ? desctopLanguageBtn : mobileLanguageBtn;
 
+    let sitesNavBtn = document.querySelector('.sub-nav__list-link._icon-sites');
+    console.log(sitesNavBtn);
+    sitesNavBtn.setAttribute('href', innerWidth > 992 ? '#!' : './website.html');
 }
 
 

@@ -1,3 +1,7 @@
+.header {
+    width: 100%;
+}
+
 .header__content {
     padding: 73px 0 38px 0;
     display: flex;
@@ -170,12 +174,10 @@
     background: var(--blackColor);
     border-radius: 5px;
     position: relative;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
-    transition: .3s linear;
 }
 
 .last__thing-content-card:hover {
-    transform: translateY(-15px);
+    top: -13px;
 }
 
 .last__thing-content-card::before {
@@ -194,9 +196,6 @@
 }
 
 @media (max-width: 992px) {
-    .last__thing-content-card:hover {
-        transform: translateY(0);
-    }
 
     .card-title {
         font-size: 20px;
@@ -209,7 +208,6 @@
 
     .last__thing-content {
         overflow-x: scroll;
-        gap: 50px;
     }
 
     .last__thing-content::-webkit-scrollbar {
@@ -242,7 +240,9 @@
         padding: 6px 16px;
     }
 
-
+    .last__thing-content-card:hover {
+        top: 0;
+    }
 
     .header__content {
         position: relative;
