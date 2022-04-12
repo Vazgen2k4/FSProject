@@ -55,13 +55,28 @@ h6 {
   color: var(--titleColor);
 }
 
-input[type=checkbox]{
+/* input[type=checkbox]{
   display: none;
-}
+} */
 
 *:hover,
 *:active {
   -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  display: block;
+}
+.neon-link {
+  display: block;
+  padding: 15px 30px;
+  width: max-content;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--white);
+  background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+  border-radius: 5px;
 }
 
 *:focus {
