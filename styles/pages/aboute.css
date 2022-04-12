@@ -646,7 +646,7 @@
         padding: 0;
         box-shadow: none;
 
-        grid-template-columns: repeat(auto-fit, 120px);
+        grid-template-columns: repeat(auto-fit, 147px);
         max-width: 400px;
     }
 
