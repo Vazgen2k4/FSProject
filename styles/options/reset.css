@@ -196,6 +196,7 @@ body {
   top: 0;
   left: 0;
   background: var(--animationGradient);
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -245,6 +246,7 @@ body {
   border-radius: 5px;
   border: solid 2px transparent;
   padding: 10px;
+  cursor: pointer;
 }
 
 .btn__secondary:before {

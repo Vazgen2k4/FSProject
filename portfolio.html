@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./assets/images/header/headerlogo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/pages/portfolio.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__content">
+                    <div class="nav__content-left">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/images/header/headerlogo.png" alt="logo">
+                            <span>Solution Fusion Lab</span>
+                        </a>
+                        <label href="#!" class="nav__theme-btn">
+                            <input type="checkbox" name="theme" id="theme-change">
+                        </label>
+                    </div>
+                    <!-- /.nav__content-left -->
+
+                    <div class="nav__content-right">
+                        <ul class="nav__list">
+                            <li class="link">
+                                <a href="#!" class="nav__list-link">Продукты</a>
+                                <div class="sub-nav__list-box ">
+                                    <ul class="sub-nav__list">
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-sites">
+                                                Разработка сайтов
+                                            </a>
+                                            <ul class="sub-sub-nav__list">
+                                                <li class="link">
+                                                    <a href="website.html#promo-sites" class="sub-sub-nav__list-link">
+                                                        Промо сайт
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#busines-card" class="sub-sub-nav__list-link">
+                                                        Сайт визитка
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#catalog-sites" class="sub-sub-nav__list-link">
+                                                        Сайт каталог
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#landing" class="sub-sub-nav__list-link">
+                                                        Лэндинг
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#korporative-sites"
+                                                        class="sub-sub-nav__list-link">
+                                                        Корпоративный сайт
+                                                    </a>
+                                                </li>
+                                                <li class="link">
+                                                    <a href="website.html#magazine" class="sub-sub-nav__list-link">
+                                                        Интернет-магазин
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="link">
+                                            <a href="./tgbot.html" class="sub-nav__list-link  _icon-bots">Телеграм
+                                                боты</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-crm">CRM системы</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-cms">CMS системы</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-erp">ERP системы</a>
+                                        </li>
+                                        <li class="link">
+                                            <a href="#!" class="sub-nav__list-link  _icon-mobile">
+                                                Мобильные приложения
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="link"><a href="#!" class="nav__list-link">Решения</a></li>
+                            <li class="link"><a href="./portfolio.html" class="nav__list-link">Портфолио</a></li>
+                            <li class="link"><a href="./aboute.html" class="nav__list-link">О нас</a></li>
+                            <li class="link"><a href="./blog.html" class="nav__list-link ">Блог</a></li>
+                            <li class="link _lang-li__btn" data-adaptive-size="992">
+
+                            </li>
+                        </ul>
+                        <!-- /.nav__list -->
+
+                    </div>
+                    <!-- /.nav__content-right -->
+                    <a href="#!" class="nav__menu-btn link">
+                        <span class="menu-btn__line"></span>
+                        <span class="menu-btn__line"></span>
+                        <span class="menu-btn__line"></span>
+                    </a>
+
+                </div>
+                <!-- /.nav__content -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- /.nav -->
+
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <h1 class="header__title">
+                        Блог и новости
+                    </h1>
+
+                    <div class="header__content-pagination">
+                        <ul class="pagination__list">
+                            <li><a href="#!" data-blog-pagination="all" class="panigation__list-link active">Все</a>
+                            </li>
+                            <li>
+                                <a href="#!" data-blog-pagination="development" class="panigation__list-link">
+                                    Разработка
+                                </a>
+                            </li>
+                            <li><a href="#!" data-blog-pagination="bots" class="panigation__list-link">
+                                    Телеграм боты
+                                </a></li>
+                            <li><a href="#!" data-blog-pagination="crm" class="panigation__list-link">
+                                    CRM системы
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main class="main">
+            <section class="all__project">
+                <div class="container">
+                    <h2 class="all__project-title">
+                        Все проекты
+                    </h2>
+                    <div class="all__project-content">
+                        <div data-blog-pagination-tag="development" class="all__project-content-card">
+                            <a href="#!"> <img class="content-card__img" src="./assets/images/porfolio/project-1.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Landing page для
+                                    диджитал агенства
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-blog-pagination-tag="development" class="all__project-content-card">
+                            <a href="#!"><img class="content-card__img" src="./assets/images/porfolio/project-2.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Корпоративный сайт
+                                    для Case Study
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-blog-pagination-tag="development" class="all__project-content-card">
+                            <a href="#!"><img class="content-card__img" src="./assets/images/porfolio/project-3.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Интернет магазин
+                                    для Tracc
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-blog-pagination-tag="development" class="all__project-content-card">
+                            <a href="#!"><img class="content-card__img" src="./assets/images/porfolio/project-4.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Landing page для
+                                    диджитал агенства
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-blog-pagination-tag="development" class="all__project-content-card">
+                            <a href="#!"><img class="content-card__img" src="./assets/images/porfolio/project-5.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Landing page
+                                    для продажи рюкзаков
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-blog-pagination-tag="development" class="all__project-content-card">
+                            <a href="#!"><img class="content-card__img" src="./assets/images/porfolio/project-6.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Сайт визитка <br>
+                                    для Summer Camp’21
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="last__thing">
+                <div class="container">
+                    <h2 class="last__thing-title">
+                        Последние добавленные
+                    </h2>
+                    <div class="last__thing-content">
+                        <div class="last__thing-content-card">
+                            <a href="#!"> <img class="content-card__img" src="./assets/images/porfolio/last-thing-1.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Landing page для
+                                    диджитал агенства
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="last__thing-content-card">
+                            <a href="#!"> <img class="content-card__img" src="./assets/images/porfolio/last-thing-2.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Landing page для
+                                    диджитал агенства
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="last__thing-content-card">
+                            <a href="#!"> <img class="content-card__img" src="./assets/images/porfolio/last-thing-3.png"
+                                    alt="portfolio-1"></a>
+                            <div class="card__content">
+                                <h3 class="content-card__title">
+                                    Landing page для
+                                    диджитал агенства
+                                </h3>
+
+                                <div class="content-card__hashtag">
+                                    <div class="hashtag__content">
+                                        <p class="card__hashtag-text">#разработка <span>сайтов</span></p>
+                                        <p class="card__hashtag-text">#маркетинг</p>
+                                    </div>
+                                    <div class="card__hashtag-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="tg__project">
+                <div class="container">
+                    <h2 class="tg__project-title">Обсудим Ваш проект?</h2>
+                    <div class="tg__project-grid">
+                        <div class="tg__project-left">
+                            <form class="tg__project-form" method="GET">
+                                <div class="tg__project-elem">
+                                    <h4 class="tg__creation-name">Наши продукты</h4>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>Разработка сайтов</span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>Телеграмм боты </span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox" checked>
+                                        <span>CRM системы</span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>CMS системы</span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>ERP системы </span>
+                                    </label>
+                                    <label class="tg__creation-label">
+                                        <input type="checkbox">
+                                        <span>Мобильные приложения</span>
+                                    </label>
+                                </div>
+                                <div class="tg__project-elem">
+                                    <h4 class="tg__creation-name">Ваши предпочтения</h4>
+                                    <label class="tg__creation-label tg__project-radio" data-select="tea">
+                                        <input type="radio" name="choice1" required checked>
+                                        <span>Чай</span>
+                                    </label>
+                                    <label class="tg__creation-label tg__project-radio" data-select="coffee">
+                                        <input type="radio" name="choice1" required>
+                                        <span>Кофе</span>
+                                    </label>
+                                    <label class="tg__creation-label tg__project-radio" data-select="cake">
+                                        <input type="radio" name="choice1" required>
+                                        <span>Плюшки</span>
+                                    </label>
+                                </div>
+                                <button class="btn">Назначить встречу</button>
+                            </form>
+                        </div>
+                        <div class="tg__project-right">
+                            <div class="tg__project-abs">
+                                <img src="./assets/images/bot_page/neon-coffee.svg" alt="" class="tg__project-selected">
+                            </div>
+                            <img src="./assets/images/bot_page/tg-project.svg" alt="" class="tg__project-abs2">
+                            <div class="tg__project-triangle">
+                                <img src="./assets/images/bot_page/triangle.svg" alt="">
+                                <div class="tg__project-item tg__project-item1">
+                                    <img src="./assets/images/bot_page/neon-capcake.svg" alt="" data-select="cake">
+                                </div>
+                                <div class="tg__project-item tg__project-item2 active">
+                                    <img src="./assets/images/bot_page/neon-tea.svg" alt="" data-select="tea">
+                                </div>
+                                <div class="tg__project-item tg__project-item3">
+                                    <img src="./assets/images/bot_page/neon-coffee.svg" alt="" data-select="coffee">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/bot_page/bg-tea.jpg" alt="" class="tg__project-bg">
+                <img src="./assets/images/bot_page/tg-project.svg" alt="" class="tg__project-decor">
+            </section>
+            <!-- /.tg__project  -->
+
+        </main>
+        <!-- /.main -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__logo-part">
+                        <a href="./index.html" class="logo">
+                            <img src="./assets/images/header/headerlogo.png" alt="logo">
+                            <span>Solution Fusion Lab</span>
+                        </a>
+
+                        <p class="footer__descr">
+                            Мы нацелены на создание будущего!
+                            Будь с нами - сделай шаг в сторону прогресса.
+                        </p>
+                    </div>
+                    <!-- /.footer__logo-part -->
+                    <ul class="footer__links-list">
+                        <li><a href="#!" class="link disabled">Решения</a></li>
+                        <li><a href="#!" class="link disabled">Портфолио</a></li>
+                        <li><a href="#!" class="link disabled">О нас</a></li>
+                        <li><a href="#!" class="link disabled">Блог</a></li>
+                    </ul>
+                    <!-- /.footer__links-list -->
+                    <div class="footer__products">
+                        <h2 class="footer__products-title">Продукты</h2>
+                        <ul class="footer__products-list">
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    CRM системы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Телеграмм боты
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Лендинги
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Электронная коммерция
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Сканирование паспорта
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link footer__products-links">
+                                    Мобильные приложения
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.footer__products -->
+                    <div class="footer__contacts">
+                        <h2 class="footer__contacts-title">Контакты</h2>
+                        <ul class="footer__contacts-list">
+                            <li>
+                                <a href="tel:+998935856774" class="link footer__contacts-links">
+                                    Телефон: +998 93 585 67 74
+
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.ru/maps/place/62+%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%90%D0%BC%D0%B8%D1%80%D0%B0+%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0,+%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.3270531,69.281607,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8b4a76230827:0x12e335ffb127c103!8m2!3d41.3270491!4d69.2837957"
+                                    class="link footer__contacts-links" target="_blank">
+                                    Адрес: Ташкент. Ул. Амира Темура 62
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:fslproject@.com" class="link footer__contacts-links">
+                                    Почта: fslproject@ .com
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.footer__contacts-list -->
+                        <ul class="footer__social-list">
+                            <li>
+                                <a href="#!" class="footer__social-link _icon-telegram"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__social-link _icon-facebook"></a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__social-link _icon-instagram"></a>
+                            </li>
+                        </ul>
+                        <!-- /.footer__social-list -->
+                    </div>
+                    <!-- /.footer__contacts -->
+
+                </div>
+                <!-- /.footer__content -->
+            </div>
+            <!-- /.container -->
+        </footer>
+
+    </div>
+    <!-- ./wrapper -->
+
+    <script src="./scripts/options/nav.js"></script>
+    <script src="./scripts/pages/porfolio.js"></script>
+    <script src="./scripts/components/tg_project.js"></script>
+</body>
+
+</html>
