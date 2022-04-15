@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telegram bot</title>
+      
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/pages/tgbot.css">
 </head>
 
@@ -80,7 +82,7 @@
                                                 боты</a>
                                         </li>
                                         <li class="link">
-                                            <a href="#!" class="sub-nav__list-link  _icon-crm">CRM системы</a>
+                                            <a href="./crm.html" class="sub-nav__list-link  _icon-crm">CRM системы</a>
                                         </li>
                                         <li class="link">
                                             <a href="#!" class="sub-nav__list-link  _icon-cms">CMS системы</a>
@@ -361,6 +363,48 @@
             </section>
             <!-- /.tg__creation -->
 
+            <section class="our__projects">
+                <!-- <img class="our__projects-bg" src="assets/rectangle.png" alt=""> -->
+                <!-- <img class="our__projects-bg" src="assets/rectangle.png" alt=""> -->
+                <div class="our__projects-titles">
+                    <h3 class="our__projects-title">Сделалайте правильный выбор</h3>
+                    <h2 class="our__projects-subtitle">Наши последние проекты.</h2>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="#!">
+                                <img src="assets/images/mainpage/our_projects/slider-img-1.png" alt="slide">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#!">
+                                <img src="assets/images/mainpage/our_projects/slider-img-2.png" alt="slide">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#!">
+                                <img src="assets/images/mainpage/our_projects/slider-img-3.png" alt="slide">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#!">
+                                <img src="assets/images/mainpage/our_projects/slider-img-4.png" alt="slide">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="our__projects-text">
+                    <p>
+                        Наша цель - внедрить цифровые решения для улучшения любого бизнеса-процесса.
+                    </p>
+                </div>
+            </section>
+            <!-- /.our__projects -->
+
             <section class="tg__project">
                 <div class="container">
                     <h2 class="tg__project-title">Обсудим Ваш проект?</h2>
@@ -541,6 +585,8 @@
         </footer>
         <!-- /.footer -->
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/options/slider.js"></script>
 
     <script src="./scripts/pages/tgbot.js"></script>
     <script src="./scripts/components/tg_project.js"></script>

@@ -1,5 +1,6 @@
 @import './../options/reset.css';
 @import './../components/tg_project.css';
+@import './../components/slider.css';
 
 
 
@@ -7,10 +8,7 @@
     position: relative;
     padding: 83px 0 116px;
     overflow: hidden;
-
 }
-
-
 
 .tg__begin-content {
     display: flex;
@@ -230,6 +228,7 @@
 .tg__creation-check .tg__creation-label p {
     margin-bottom: 10px;
 }
+
 .tg__creation-check .tg__creation-label p::before {
     content: '—';
     margin-right: 5px;
@@ -239,48 +238,13 @@
 .tg__creation-check .tg__creation-name {
     margin-top: 10px;
 }
-/* 
-.tg__creation-label span {
-    display: flex;
-    align-items: center;
-    position: relative;
-    user-select: none;
-}
-
-.tg__creation-label span::before {
-    display: block;
-    content: '';
-    width: 15px;
-    height: 15px;
-    background: rgba(218, 218, 218, 0.5);
-    border-radius: 2px;
-    margin-right: 15px;
-}
-
-input[type=checkbox], input[type=radio] {
-    display: none;
-}
-
-input[type=checkbox]:checked~span::before, input[type=radio]~span::before  {
-    background: var(--secondaryItemColor);
-}
-
-input[type=checkbox]:checked~span::after, input[type=radio]:checked~span::after {
-    position: absolute;
-    content: '';
-    width: 9px;
-    height: 9px;
-    display: block;
-    background: #00BA91;
-    border-radius: 2px;
-    left: 3px;
-} */
 
 .tg__creation-sep {
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .tg__creation-steps {
@@ -319,14 +283,12 @@ input[type=checkbox]:checked~span::after, input[type=radio]:checked~span::after 
     display: block;
     border: 2px solid transparent;
     position: relative;
-    /* border-image: linear-gradient(90deg, #2AF598 0%, #009EFD 100%) 1; */
     box-shadow: 0px 0px 10px #08FFC8;
+    margin-right: 30px;
 }
 
 .tg__creation-next span {
     display: block;
-    padding: 15px 30px;
-    background: #000;
     position: relative;
     z-index: 5;
 }
@@ -478,7 +440,7 @@ input[type=checkbox]:checked~span::after, input[type=radio]:checked~span::after 
     .tg__creation-grid {
         flex-direction: column;
     }
-  
+
     .tg__creation {
         background: #171717;
     }
@@ -521,19 +483,26 @@ input[type=checkbox]:checked~span::after, input[type=radio]:checked~span::after 
     .tg__creation-title {
         font-size: 24px;
         line-height: 33px;
-       margin: 0;
-       margin-bottom: 50px;
+        margin: 0;
+        margin-bottom: 50px;
     }
-    .tg__creation-prev{
+
+    .tg__creation-prev {
         display: block;
         border: 1px solid rgba(218, 218, 218, 0.5);
         border-radius: 5px;
         color: rgba(218, 218, 218, 0.5);
     }
-    .tg__creation-prev, .tg__creation-next span{
+
+    .tg__creation-prev,
+    .tg__creation-next span {
         font-size: 14px;
         line-height: 17px;
-        padding: 10px 15px;        
+        padding: 10px 15px;
+    }
+
+    .tg__creation-next span{
+        padding: unset;
     }
 
     .tg__creation-reset {
