@@ -6,6 +6,12 @@
   width: 100%;
 }
 
+.header__content{
+  background: url('./../assets/images/mainpage/header_bg.png') no-repeat center / cover;
+  margin: unset;
+  padding-top: 100px;
+}
+
 .main {
   width: 100%;
   -webkit-box-flex: 1;
@@ -223,6 +229,8 @@
 }
 
 .connect__bg {
+  z-index: 1;
+  position: relative;
   width: 100%;
   padding-top: 69px;
   padding-bottom: 58px;
@@ -340,7 +348,8 @@
 
 .technology {
   padding-top: 72px;
-  padding-bottom: 150px
+  padding-bottom: 150px;
+  background: url('./../assets/images/mainpage/cirle_technology.svg') no-repeat -250px center;
 }
 
 .technology__inner {
@@ -448,6 +457,10 @@
 }
 
 @media(max-width: 768px) {
+  .header__content {
+    background: unset;
+  }
+
   .connect__bg {
     background: var(--secondaryItemColorDark)
   }
